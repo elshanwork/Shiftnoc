@@ -10,8 +10,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowForwardIos
-import androidx.compose.material3.Divider
+import androidx.compose.material.icons.automirrored.filled.ArrowForwardIos
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -22,7 +21,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.elshan.shiftnoc.ui.theme.ShiftnocTheme
@@ -95,8 +93,8 @@ fun CategoryItemComponent(title: String, icon: ImageVector, onClick: () -> Unit)
 @Composable
 fun SettingsCategoryComponentPreview() {
     val generalCategoryList = listOf(
-        SettingsItem("Language", icon = Icons.Default.ArrowForwardIos),
-        SettingsItem("Week", icon = Icons.Default.ArrowForwardIos)
+        SettingsItem("Language", icon = Icons.AutoMirrored.Filled.ArrowForwardIos),
+        SettingsItem("Week", icon = Icons.AutoMirrored.Filled.ArrowForwardIos)
     )
     ShiftnocTheme {
         SettingsComponent(

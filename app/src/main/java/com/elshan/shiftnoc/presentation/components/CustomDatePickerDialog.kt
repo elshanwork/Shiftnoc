@@ -12,11 +12,10 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForwardIos
 import androidx.compose.material.icons.filled.ArrowBackIosNew
-import androidx.compose.material.icons.filled.ArrowForwardIos
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -35,11 +34,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.elshan.shiftnoc.R
 import com.elshan.shiftnoc.presentation.calendar.AppState
-import com.elshan.shiftnoc.presentation.calendar.ContinuousSelectionHelper.getSelection
-import com.elshan.shiftnoc.presentation.calendar.DateSelection
 import com.kizitonwose.calendar.compose.HorizontalCalendar
 import com.kizitonwose.calendar.compose.rememberCalendarState
-import com.kizitonwose.calendar.core.DayPosition
 import com.kizitonwose.calendar.core.yearMonth
 import kotlinx.coroutines.launch
 import java.time.LocalDate
@@ -149,7 +145,7 @@ fun CustomDatePickerDialog(
                                     }
                                 }
                                 .padding(8.dp),
-                            imageVector = Icons.Default.ArrowForwardIos,
+                            imageVector = Icons.AutoMirrored.Filled.ArrowForwardIos,
                             contentDescription = null
                         )
                     }

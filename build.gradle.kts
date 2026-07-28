@@ -5,5 +5,7 @@ plugins {
     alias(libs.plugins.hiltandroid) apply false
     alias(libs.plugins.kotlinkapt) apply false
     alias(libs.plugins.googleGmsGoogleServices) apply false
-    id("com.google.firebase.crashlytics") version "3.0.2" apply false
+    id("com.google.firebase.crashlytics") version "3.0.6" apply false
+    
+    alias(libs.plugins.compose.compiler) apply false
 }

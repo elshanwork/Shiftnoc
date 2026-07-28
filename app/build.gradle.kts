@@ -8,18 +8,20 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     id("com.google.firebase.crashlytics")
     id("kotlin-parcelize")
+
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
     namespace = "com.elshan.shiftnoc"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.elshan.shiftnoc"
         minSdk = 28
-        targetSdk = 34
-        versionCode = 9
-        versionName = "1.9"
+        targetSdk = 35
+        versionCode = 10
+        versionName = "1.10"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -55,9 +57,7 @@ android {
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -109,7 +109,7 @@ dependencies {
 
     // Coroutine Lifecycle Scopes
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.androidx.lifecycle.runtime.ktx.v262)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
 
     // Splash Screen
     implementation(libs.androidx.core.splashscreen)

@@ -1,22 +1,7 @@
 package com.elshan.shiftnoc.util
 
-import android.app.Activity
 import android.content.Context
-import android.content.ContextWrapper
 import android.content.res.Configuration
-import androidx.annotation.ColorRes
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.snapshotFlow
-import androidx.core.content.ContextCompat
-import com.kizitonwose.calendar.compose.CalendarState
-import com.kizitonwose.calendar.core.CalendarMonth
-import com.kizitonwose.calendar.core.Week
-import com.kizitonwose.calendar.core.yearMonth
-import kotlinx.coroutines.flow.filter
-import java.time.DayOfWeek
 import java.time.Month
 import java.time.Year
 import java.time.YearMonth

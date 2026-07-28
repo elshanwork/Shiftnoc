@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495953474947",
+    "project_id": "shiftnoc-ef764",
+    "storage_bucket": "shiftnoc-ef764.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495953474947:android:888e239c8c1058ade732b6",
+        "android_client_info": {
+          "package_name": "com.elshan.shiftnoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJEeMR7by_t04RJfU7q0xFWehF8Wy_CLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

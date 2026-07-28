@@ -1,54 +1,53 @@
 [versions]
-agp = "8.5.1"
-calendar = "2.6.0-beta02"
-colorpickerCompose = "1.1.1"
-firebaseBom = "33.1.1"
-gson = "2.10.1"
-kotlin = "1.9.0"
-coreKtx = "1.13.1"
+agp = "8.12.0"
+calendar = "2.8.0"
+colorpickerCompose = "1.1.2"
+firebaseBom = "34.1.0"
+gson = "2.13.1"
+kotlin = "2.2.10"
+coreKtx = "1.17.0"
 junit = "4.13.2"
-junitVersion = "1.1.5"
-espressoCore = "3.5.1"
-lifecycleRuntimeKtx = "2.8.2"
-lifecycleRuntimeKtxVersion = "2.8.2"
-activityCompose = "1.9.0"
-composeBom = "2024.06.00"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.9.2"
+activityCompose = "1.10.1"
+composeBom = "2025.08.00"
 
-hiltAndroid = "2.49"
-hiltCompiler = "2.49"
+hiltAndroid = "2.57.1"
+hiltCompiler = "2.57.1"
 hiltCompilerVersion = "1.2.0"
 
-googleGmsGoogleServices = "4.4.2"
+googleGmsGoogleServices = "4.4.3"
 
-kotlinxCoroutinesAndroid = "1.7.3"
-kotlinxCoroutinesCore = "1.7.1"
+kotlinxCoroutinesAndroid = "1.10.2"
+kotlinxCoroutinesCore = "1.10.2"
 
-datastorePreferences = "1.1.1"
+datastorePreferences = "1.1.7"
 
-lifecycleRuntimeCompose = "2.8.2"
+lifecycleRuntimeCompose = "2.9.2"
 
 coreSplashscreen = "1.0.1"
 
-material3Version = "1.2.1"
-materialIconsExtended = "1.6.8"
+material3Version = "1.3.2"
+materialIconsExtended = "1.7.8"
 
-composeNavigation = "2.8.0-beta03"
+composeNavigation = "2.9.3"
 
-serialization = "1.6.3"
-uiTextGoogleFonts = "1.6.8"
+serialization = "1.9.0"
+uiTextGoogleFonts = "1.9.0"
 material = "1.12.0"
 
-roomKtx = "2.6.1"
+roomKtx = "2.7.2"
 wheelpickercomposeVersion = "1.1.11"
 
-workRuntimeKtx = "2.9.0"
+workRuntimeKtx = "2.10.3"
 
-accompanistPermissions = "0.30.1"
+accompanistPermissions = "0.37.3"
 
-lottieCompose = "5.2.0"
-firebaseCrashlyticsKtx = "19.0.2"
-firebaseMessagingKtx = "24.0.1"
-firebaseAuthKtx = "23.0.0"
+lottieCompose = "6.6.7"
+firebaseCrashlyticsKtx = "19.4.4"
+firebaseMessagingKtx = "24.1.2"
+firebaseAuthKtx = "23.2.1"
 
 
 
@@ -94,7 +93,6 @@ androidx-material-icons-extended = { module = "androidx.compose.material:materia
 androidx-compose-material3-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3Version" }
 
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
-androidx-lifecycle-runtime-ktx-v262 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
 
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization"}
 androidx-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
@@ -122,4 +120,7 @@ hiltandroid = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroi
 kotlinkapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 googleGmsGoogleServices = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
 

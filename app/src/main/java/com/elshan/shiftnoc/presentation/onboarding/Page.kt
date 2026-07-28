@@ -6,9 +6,9 @@ import androidx.annotation.StringRes
 import com.elshan.shiftnoc.R
 
 data class Page(
-    @StringRes val title: Int,
-    @StringRes val description: Int,
-    @RawRes val lottie: Int
+    @param:StringRes val title: Int,
+    @param:StringRes val description: Int,
+    @param:RawRes val lottie: Int
 )
 
 val page = listOf(
